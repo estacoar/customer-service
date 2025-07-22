@@ -41,6 +41,8 @@ dependencies {
 	implementation 'io.zipkin.reporter2:zipkin-reporter-brave'
 	implementation 'junit:junit:4.13.1'
 	compileOnly 'org.projectlombok:lombok:1.18.30'
+	implementation 'org.flywaydb:flyway-core'
+	runtimeOnly 'org.postgresql:postgresql'
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
