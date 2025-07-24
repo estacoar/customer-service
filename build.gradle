@@ -60,5 +60,5 @@ tasks.named('test') {
 }
 
 bootJar {
-	archiveFileName = 'app.jar'
+	archiveFileName = 'customer-service.jar'
 }
